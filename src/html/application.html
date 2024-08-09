@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+  <title>Vendor Application</title>
+  <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+
+<!-- Display Application and used select tag to display application types -->
+<!--Would like to refactor to php file that populates new app types as they're added-->
+<body class="body">
+  <header>
+    <h2>Apply to be a Vendor</h2>
+  </header>
+  <main>
+    <div class="form-container" style="display:center; margin-left:auto; margin-right:auto;">
+      <form action="../php/application.php" method="POST">
+        Application Type:
+        <select style="text-align: center;" name="application_type_id" required>
+          <option value="1">Food</option>
+          <option value="2">Music</option>
+          <option value="3">Animal Shelters</option>
+          <option value="4">Community Outreach</option> 
+        </select>
+        <br>
+        <br>
+        Vendor Name: <input type="text" name="vendor_name" required>
+        <br>
+        <br>
+        Description: <textarea name="description" required></textarea>
+        <br>
+        <input type="submit" value="Apply">
+      </form>
+    </div>
+    <br>
+    <section>
+      <a href="../../index.html" class="login-link">Back to Homepage</a>
+    </section>
+  </main>
+  <footer>
+    <p>Eventeny Engineering Project - Christa Oshodi</p>
+  </footer>
+</body>
+</html>

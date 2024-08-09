@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+  <title>Organizer Login</title>
+  <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+
+<!-- Display form to input organizer password to view all applications and update status -->
+<body>
+  <header>
+    <h1>Organizer Login</h1>
+  </header>
+  <main>
+    <section id="description">
+      <form id="form" action="../php/organizers_page.php" method="POST" onsubmit="return validatePassword()">
+        Password: <input type="password" name="password" id="password" required>
+        <br>
+        <br>
+        <input type="submit" value="Login">
+      </form>
+    </section>
+    <p id="errorMessage" style="color: red;"></p>
+    <br>
+    <section>
+      <a href="../../index.html" class="login-link">Back to Homepage</a>
+    </section>
+  </main>
+  <footer>
+    <p>Eventeny Engineering Project - Christa Oshodi</p>
+  </footer>
+
+<!-- Javascript function to verify password before viewing Organizer page -->
+  <script>
+    function validatePassword() {
+      const password = document.getElementById('password').value;
+      const errorMessage = document.getElementById('errorMessage');
+      
+      if (password !== '45678') {
+        errorMessage.textContent = 'Incorrect password. Please try again.';
+        return false;
+      }
+      return true;
+    }
+  </script>
+</body>
+</html>

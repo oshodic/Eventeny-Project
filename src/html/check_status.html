@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+  <title>Check Vendor Application Status</title>
+  <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+
+<!-- Display form to input application id to check status -->
+<body class="body">
+  <header>
+    <h2>Check Vendor Application Status</h2>
+  </header>
+  <main>
+    <section id="description">
+      <p>Input your Application ID to check the status of your application.</p>
+      <form action="../php/check_status.php" method="POST">
+        Application ID: <input type="number" name="application_id" required>
+        <br>
+        <br>
+        <input type="submit" value="Check Status">
+      </form>
+  </section>
+  <section>
+    <a href="../../index.html" class="login-link">Back to Homepage</a>
+  </section>
+</main>
+  <footer>
+    <p>Eventeny Engineering Project - Christa Oshodi</p>
+  </footer>
+</body>
+</html>
