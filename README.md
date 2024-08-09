@@ -3,7 +3,14 @@ Instructions to run the app:
 - Run `docker compose up --build`
 - Navigate to localhost:80 to view the Foodventeny application
 
-I used PHPmyAdmin to create my data tables. I exported the tables and added the SQL files to the db folder.
+Creating or editing tables:
+- Navigate to localhost:8001 to log into PHPMyAdmin
+- Username = 'user' and Password = 'password'
+
+Logging into the Organizers Page:
+- Password = '45678'
+
+I used PHPMyAdmin to create my data tables. I exported the tables and added the SQL files to the db folder.
 I chose to create a login page for the Organizers to view all application submissions and update their status.
 Initially, I wanted to make separate login pages for Organizers and Vendors, but had to change the logic due to time constraints.
 Instead I chose to make one login for all organizers to use and one 'check status' page for all vendors. This way only 2 tables
