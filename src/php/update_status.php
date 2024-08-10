@@ -33,16 +33,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <p>
           You have updated the status of Application ID 
           <?php echo "#$application_id to:
-            <br>
             <br>";
             if ($status == 'Approved') {
-              echo '<b style="color:green;">'.$status.'</b>';
+              echo '<h3 style="color:green;">'.$status.'</h3>';
             } elseif ($status == 'Rejected') {
-              echo '<b style="color:red;">'.$status.'</b>';
+              echo '<h3 style="color:red;">'.$status.'</h3>';
             } elseif ($status == 'Waitlisted') {
-              echo '<b style="color:purple;">'.$status.'</b>';
+              echo '<h3 style="color:purple;">'.$status.'</h3>';
             } else {
-              echo '<b style="color:black;">'.$status.'</b>';
+              echo '<h3 style="color:black;">'.$status.'</h3>';
             }
           ?>
         </p>
