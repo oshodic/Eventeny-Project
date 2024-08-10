@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  background-color: #79c7d8;
+  background-color: #08A6A0;
   color: white;
   padding: 20px;
   text-align: center;
@@ -20,6 +20,7 @@ main {
   flex: 1;
   padding: 20px;
   background-image: url(https://media.istockphoto.com/id/1130290919/photo/blurred-background-at-night-market-festival-people-walking-on-road.jpg?s=1024x1024&w=is&k=20&c=ZjfSTchO1bWmDoFkNmdHdVcB2Ss8XRpyZUT1lzCTH3Q=);
+  background-size: cover;
   text-align: center;
 }
 
@@ -46,7 +47,7 @@ form-container {
 }
 
 .login-link {
-  background-color: #79c7d8;
+  background-color: #08A6A0;
   color: white;
   padding: 10px 20px;
   text-decoration: none;
@@ -56,7 +57,7 @@ form-container {
 }
 
 .login-link:hover {
-  background-color: #0056b3;
+  background-color: #79c7d8;
 }
 
 ul {
@@ -67,7 +68,7 @@ ul {
 }
 
 footer {
-  background-color: #79c7d8;
+  background-color: #08A6A0;
   color: white;
   text-align: center;
   padding: 10px;
