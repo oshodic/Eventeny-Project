@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  background-color: #08A6A0;
+  background-color: #0ABAB5;
   color: white;
   padding: 20px;
   text-align: center;
@@ -24,18 +24,6 @@ main {
   text-align: center;
 }
 
-form-container {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 300px;
-  text-align: center;
-  display:center; 
-  margin-left:auto; 
-  margin-right:auto;
-}
-
 #description {
   background-color: white; 
   opacity: 0.8;
@@ -47,7 +35,7 @@ form-container {
 }
 
 .login-link {
-  background-color: #08A6A0;
+  background-color: #0ABAB5;
   color: white;
   padding: 10px 20px;
   text-decoration: none;
@@ -57,7 +45,7 @@ form-container {
 }
 
 .login-link:hover {
-  background-color: #79c7d8;
+  background-color: #08A09C;
 }
 
 ul {
@@ -68,7 +56,7 @@ ul {
 }
 
 footer {
-  background-color: #08A6A0;
+  background-color: #0ABAB5;
   color: white;
   text-align: center;
   padding: 10px;
