@@ -41,6 +41,7 @@ Would like to refactor to add error handling in case submission fails -->
       <br>
       <br>
     </section>
+    <br>
     <section>
         <a href="../../index.html" class="login-link">Back to Homepage</a>
     </section>

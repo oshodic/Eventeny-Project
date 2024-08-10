@@ -52,6 +52,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       ?>
       <br>
     </section>
+    <br>
     <section>
       <a href="../../index.html" class="login-link">Back to Homepage</a>
     </section>

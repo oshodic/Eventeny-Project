@@ -47,6 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           ?>
         </p>
     </section>
+    <br>
     <section>
       <a href="../../index.html" class="login-link">Back to Homepage</a>
       <a href="organizers_page.php" class="login-link">Back to Organizers Page</a>
