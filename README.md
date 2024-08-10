@@ -16,14 +16,14 @@ Initially, I wanted to make separate login pages for Organizers and Vendors, but
 Instead I chose to make one login for all organizers to use and one 'check status' page for all vendors. This way only 2 tables
 were needed in order to store applications and their types.
 
-Eventeny Vendors:
+Foodventeny Vendors:
 - Vendors can click the 'Submit an Application' link and are navigated to the application. They will need to choose their application type,
 input the Vendor name and add a description before submitting.
 - Upon submission, they are provided with their application ID. They will use this ID to check the status of their application.
 - Vendors can check the status of their application by clicking the 'Check Application Status' button on the homepage or by using the check status
   link which is displayed upon successfully submitting an application.
 
-Eventeny Organizers:
+Foodventeny Organizers:
 - Organizers can click the 'Organizer Login' link on the homepage. They will need to input the password (45678) to view the Organizers Page.
 - If the correct password is input, Organizers will be routed to the Organizers Page to view all application submissions and update their status.
 - Upon status update, Organizers can either route to the homepage or back to the Organizers Page to update more applications.
