@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <head>
   <title>Vendor Application</title>
   <link rel="stylesheet" type="text/css" href="../css/styles.css">
@@ -6,6 +7,7 @@
 
 <!-- Display Application and used select tag to display application types -->
 <!--Would like to refactor to php file that populates new app types as they're added-->
+
 <body class="body">
   <header>
     <h2>Apply to be a Vendor</h2>
@@ -13,21 +15,30 @@
   <main>
     <section id="description">
       <form action="../php/application.php" method="POST">
-        Application Type:
-        <select style="text-align: center;" name="application_type_id" required>
-          <option value="1">Food</option>
-          <option value="2">Music</option>
-          <option value="3">Animal Shelters</option>
-          <option value="4">Community Outreach</option> 
-        </select>
+        <div>
+          <label>Application Type:</label>
+          <br>
+          <select style="text-align: center;" name="application_type_id" required>
+            <option value="1">Food</option>
+            <option value="2">Music</option>
+            <option value="3">Animal Shelters</option>
+            <option value="4">Community Outreach</option>
+          </select>
+        </div>
         <br>
+        <div>
+          <label>Vendor Name:</label>
+          <br>
+          <input type="text" name="vendor_name" required>
+        </div>
         <br>
-        Vendor Name: <input type="text" name="vendor_name" required>
-        <br>
-        <br>
-        Description: <textarea name="description" required></textarea>
-        <br>
-        <input type="submit" value="Apply">
+        <div>
+          <label>Description:</label>
+          <br>
+          <textarea name="description" required></textarea>
+          <br>
+          <input type="submit" value="Apply">
+        </div>
       </form>
     </section>
     <br>
